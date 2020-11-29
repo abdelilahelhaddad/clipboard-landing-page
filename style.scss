@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+$Strong-Cyan: hsl(171, 66%, 44%);
+$Light-Blue: hsl(233, 100%, 69%);
+$Dark-Grayish-Blue: hsl(210, 10%, 33%);
+$Grayish-Blue: hsl(201, 11%, 66%);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3{
+  font-weight: 600;
+  color: $Dark-Grayish-Blue; 
+  margin-bottom: 1rem;
+}
+
+h3{
+  margin-bottom: .5rem;
+}
+
+p{
+  color: $Grayish-Blue;
+  margin-bottom: 2rem;
+}
+
+.Btn{
+  color: #ffffff;
+  padding: 12px 35px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-weight: 400;
+}
+
+.container{
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#header{
+  background: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  .container{
+    height: 100vh;
+    .hero-page{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      // padding: 5rem auto;
+      .logo{
+        margin-bottom: 3rem;
+        padding-top: 8rem;
+      }
+      .text-content{
+        text-align: center;
+        h1{
+          font-size: 39px;
+        }
+        p{
+          padding: 0 17rem;
+        }
+      }
+      .CTA-buttons{
+        .Btn-ios{
+          background-color: $Strong-Cyan;
+          border-bottom: 3px solid darken($color: $Strong-Cyan, $amount: 5);
+          margin-right: .5rem;
+          box-shadow: 0 5px 10px rgba($color: $Strong-Cyan, $alpha: 0.3);
+        }
+        .Btn-mac{
+          background-color: $Light-Blue;
+          border-bottom: 3px solid darken($color: $Light-Blue, $amount: 5);
+          margin-left: .5rem;
+          box-shadow: 0 5px 10px rgba($color: $Light-Blue, $alpha: 0.3);
+        }
+      }
+    }
+  }
+}
+
+// Track Snippets
+
+.snippets{
+  height: 100%;
+  margin-bottom: 10rem;
+  .container{
+    margin-bottom: 6rem;
+    .snippets-text{
+      text-align: center;
+      p{
+        padding: 0 16rem;        
+      }
+    }
+  }
+  .snippets-features{
+    display: flex;
+    gap: 4rem;
+    .computer-image{
+      img{
+        position: relative;
+        left: -5%;    
+      }
+    }
+    .features{
+      align-self: center;
+      padding-right: 9rem;
+      .search, .sync, .history{
+        margin-bottom: 4rem;
+      }
+    }
+  }
+}

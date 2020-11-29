@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #4c545d;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-bottom: .5rem;
+}
+
+p {
+  color: #9fabb2;
+  margin-bottom: 2rem;
+}
+
+.Btn {
+  color: #ffffff;
+  padding: 12px 35px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-weight: 400;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#header {
+  background: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+}
+
+#header .container {
+  height: 100vh;
+}
+
+#header .container .hero-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#header .container .hero-page .logo {
+  margin-bottom: 3rem;
+  padding-top: 8rem;
+}
+
+#header .container .hero-page .text-content {
+  text-align: center;
+}
+
+#header .container .hero-page .text-content h1 {
+  font-size: 39px;
+}
+
+#header .container .hero-page .text-content p {
+  padding: 0 17rem;
+}
+
+#header .container .hero-page .CTA-buttons .Btn-ios {
+  background-color: #26baa4;
+  border-bottom: 3px solid #22a591;
+  margin-right: .5rem;
+  -webkit-box-shadow: 0 5px 10px rgba(38, 186, 164, 0.3);
+          box-shadow: 0 5px 10px rgba(38, 186, 164, 0.3);
+}
+
+#header .container .hero-page .CTA-buttons .Btn-mac {
+  background-color: #6173ff;
+  border-bottom: 3px solid #475dff;
+  margin-left: .5rem;
+  -webkit-box-shadow: 0 5px 10px rgba(97, 115, 255, 0.3);
+          box-shadow: 0 5px 10px rgba(97, 115, 255, 0.3);
+}
+
+.snippets {
+  height: 100%;
+  margin-bottom: 10rem;
+}
+
+.snippets .container {
+  margin-bottom: 6rem;
+}
+
+.snippets .container .snippets-text {
+  text-align: center;
+}
+
+.snippets .container .snippets-text p {
+  padding: 0 16rem;
+}
+
+.snippets .snippets-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+}
+
+.snippets .snippets-features .computer-image img {
+  position: relative;
+  left: -5%;
+}
+
+.snippets .snippets-features .features {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-right: 9rem;
+}
+
+.snippets .snippets-features .features .search, .snippets .snippets-features .features .sync, .snippets .snippets-features .features .history {
+  margin-bottom: 4rem;
+}
+/*# sourceMappingURL=style.css.map */
