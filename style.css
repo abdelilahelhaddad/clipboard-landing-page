@@ -28,8 +28,9 @@ p {
 
 .Btn {
   color: #ffffff;
-  padding: 12px 35px;
+  padding: 14px 38px;
   border-radius: 20px;
+  font-size: 15px;
   outline: none;
   border: none;
   font-weight: 400;
@@ -137,5 +138,194 @@ p {
 
 .snippets .snippets-features .features .search, .snippets .snippets-features .features .sync, .snippets .snippets-features .features .history {
   margin-bottom: 4rem;
+}
+
+.clipboard {
+  margin-bottom: 10rem;
+}
+
+.clipboard .container {
+  text-align: center;
+}
+
+.clipboard .container .clipboard-text {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.clipboard .container .clipboard-text p {
+  padding: 0 16rem;
+}
+
+.clipboard .container .clipboard-image {
+  width: 100%;
+}
+
+.clipboard .container .clipboard-image img {
+  padding: 0 9rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.workflow {
+  margin-bottom: 10rem;
+}
+
+.workflow .container {
+  text-align: center;
+}
+
+.workflow .container .tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 2rem;
+  gap: 1rem;
+}
+
+.workflow .container .tools-blacklists, .workflow .container .tools-snippets, .workflow .container .tools-preview {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 32%;
+          flex: 0 1 32%;
+}
+
+.workflow .container .tools-blacklists img, .workflow .container .tools-snippets img, .workflow .container .tools-preview img {
+  height: 40px;
+  margin: 2rem 0;
+}
+
+.workflow .container .tools-blacklists h3, .workflow .container .tools-snippets h3, .workflow .container .tools-preview h3 {
+  margin-bottom: 1rem;
+}
+
+.workflow .container .tools-blacklists p, .workflow .container .tools-snippets p, .workflow .container .tools-preview p {
+  line-height: 1.8rem;
+}
+
+.brands {
+  margin-bottom: 10rem;
+}
+
+.brands .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 3rem;
+}
+
+.brands .container .brand img {
+  width: 100%;
+}
+
+.clipboard-ios-mac {
+  margin-bottom: 10rem;
+}
+
+.clipboard-ios-mac .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clipboard-ios-mac .container .text-content {
+  text-align: center;
+}
+
+.clipboard-ios-mac .container .text-content h2 {
+  font-size: 32px;
+}
+
+.clipboard-ios-mac .container .text-content p {
+  padding: 0 16rem;
+  line-height: 1.7rem;
+}
+
+.clipboard-ios-mac .container .CTA-buttons {
+  margin-top: 1rem;
+}
+
+.clipboard-ios-mac .container .CTA-buttons .Btn-ios {
+  background-color: #26baa4;
+  border-bottom: 3px solid #22a591;
+  margin-right: .5rem;
+  -webkit-box-shadow: 0 5px 10px rgba(38, 186, 164, 0.3);
+          box-shadow: 0 5px 10px rgba(38, 186, 164, 0.3);
+}
+
+.clipboard-ios-mac .container .CTA-buttons .Btn-mac {
+  background-color: #6173ff;
+  border-bottom: 3px solid #475dff;
+  margin-left: .5rem;
+  -webkit-box-shadow: 0 5px 10px rgba(97, 115, 255, 0.3);
+          box-shadow: 0 5px 10px rgba(97, 115, 255, 0.3);
+}
+
+#footer {
+  background: rgba(159, 171, 178, 0.1);
+}
+
+#footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 130px;
+  padding: 0 3rem;
+}
+
+#footer .container .logo img {
+  width: 50px;
+}
+
+#footer .container .footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 4rem;
+}
+
+#footer .container .footer-list .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#footer .container .footer-list .list a {
+  text-decoration: none;
+  color: #4c545d;
+  margin: .4rem 3rem;
+}
+
+#footer .container .socials {
+  margin-left: 14rem;
+}
+
+#footer .container .socials a {
+  color: #4c545d;
+  margin: 0 .5rem;
 }
 /*# sourceMappingURL=style.css.map */
