@@ -39,12 +39,21 @@ p{
   outline: none;
   border: none;
   font-weight: 400;
+  @media (max-width:375px){
+    // padding: 14px 30px;
+    border-radius: 30px;
+  }
 }
 
 .container{
   width: 1200px;
   max-width: 100%;
   margin: 0 auto;
+  @media (max-width:375px){
+    width: 375px;
+    max-width: 100%;
+    padding: 0 1.5rem;
+  }
 }
 
 #header{
@@ -96,6 +105,36 @@ p{
       }
     }
   }
+  @media (max-width:375px){
+    background: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    .container{
+      .hero-page{
+        .text-content{
+          h1{
+            font-size: 32px;
+          }
+          p{
+            font-size: 17px;
+            padding: .5rem 0;
+          }
+        }
+        .CTA-buttons{
+          .Btn-ios{
+            width: 100%;
+            font-size: 18px;
+            margin-bottom: 1.5rem;
+            margin-right: 0rem;
+          }
+          .Btn-mac{
+            width: 100%;
+            font-size: 18px;
+            margin-left: 0rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 // Track Snippets
@@ -129,6 +168,35 @@ p{
       }
     }
   }
+  @media (max-width:375px){
+    .container{
+      .snippets-text{
+        p{
+          padding: 0rem;        
+        }
+      }
+    }
+    .snippets-features{
+      display: flex;
+      flex-direction: column;
+      .computer-image{
+        padding: 0 1.5rem;
+        img{
+          width: 100%;
+          left: 0%;    
+        }
+      }
+      .features{
+        padding-right: 0rem;
+        text-align: center;
+        .search, .sync, .history{
+          p{
+            padding: 0 1.5rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 // Access Clipboard anywhere
@@ -155,6 +223,23 @@ p{
       }
     }
   }
+  @media (max-width:375px){
+    margin-bottom: 7rem;
+    .container{
+      .clipboard-text{
+        margin-bottom: 4rem;
+        p{
+          padding: 0rem;  
+          font-size: 17px;      
+        }
+      }
+      .clipboard-image{
+        img{
+          padding: 0rem;
+        }
+      }
+    }
+  }
 }
 
 // Supercharge your workflow
@@ -164,7 +249,6 @@ p{
   .container{
     text-align: center;
     .tools{
-      display: flex;
       margin: 0 2rem;
       gap: 1rem;
       &-blacklists, &-snippets, &-preview{
@@ -182,7 +266,25 @@ p{
       }
     }
   }
-}
+  @media (max-width:375px){
+    margin-bottom: 7rem;
+    .container{
+      .workflow-text{
+        p{
+          margin-bottom: 4rem;
+        }
+      }
+      .tools{
+        flex-direction: column;
+        margin: 0rem;
+          p{
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+
 
 // Brands
 
@@ -195,6 +297,18 @@ p{
     .brand{
       img{
         width: 100%;
+      }
+    }
+  }
+  @media (max-width:375px){
+    .container{
+      flex-direction: column;
+      padding: 0 7rem;
+      .brand{
+        margin-bottom: 4rem;
+        img{
+          width: 100%;
+        }
       }
     }
   }
@@ -245,6 +359,28 @@ p{
         }
       }
   }
+  @media (max-width:375px){
+    .container{
+        .text-content{
+          p{
+            padding: 0rem;
+          }
+        }
+        .CTA-buttons{
+          .Btn-ios{
+            width: 100%;
+            font-size: 18px;
+            margin-bottom: 1.5rem;
+            margin-right: 0rem;
+          }
+          .Btn-mac{
+            width: 100%;
+            font-size: 18px;
+            margin-left: 0rem;
+          }
+        }
+    }
+  }
 }
 
 #footer{
@@ -283,6 +419,36 @@ p{
         margin: 0 .5rem;
         &:hover{
           color: $Strong-Cyan;
+        }
+      }
+    }
+  }
+  @media (max-width:375px){
+    .container{
+      flex-direction: column;
+      height: 100%;
+      padding: 3rem 0rem;
+      .logo{
+        margin-bottom: 1.5rem;
+        img{
+          width: 60px;
+        }
+      }
+      .footer-list{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0rem;
+        .list{
+        a{
+          margin: 1rem 3rem;
+        }
+        }
+      }
+      .socials{
+        margin-left: 0rem;
+        margin-top: 2rem;
+        a{
+          margin: 0 1rem;
         }
       }
     }
