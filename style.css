@@ -92,12 +92,24 @@ p {
           box-shadow: 0 5px 10px rgba(38, 186, 164, 0.3);
 }
 
+#header .container .hero-page .CTA-buttons .Btn-ios:hover {
+  cursor: pointer;
+  background-color: rgba(38, 186, 164, 0.7);
+  border-bottom: 3px solid #2acfb7;
+}
+
 #header .container .hero-page .CTA-buttons .Btn-mac {
   background-color: #6173ff;
   border-bottom: 3px solid #475dff;
   margin-left: .5rem;
   -webkit-box-shadow: 0 5px 10px rgba(97, 115, 255, 0.3);
           box-shadow: 0 5px 10px rgba(97, 115, 255, 0.3);
+}
+
+#header .container .hero-page .CTA-buttons .Btn-mac:hover {
+  cursor: pointer;
+  background-color: rgba(97, 115, 255, 0.7);
+  border-bottom: 3px solid #7a8aff;
 }
 
 .snippets {
@@ -267,12 +279,24 @@ p {
           box-shadow: 0 5px 10px rgba(38, 186, 164, 0.3);
 }
 
+.clipboard-ios-mac .container .CTA-buttons .Btn-ios:hover {
+  cursor: pointer;
+  background-color: rgba(38, 186, 164, 0.7);
+  border-bottom: 3px solid #2acfb7;
+}
+
 .clipboard-ios-mac .container .CTA-buttons .Btn-mac {
   background-color: #6173ff;
   border-bottom: 3px solid #475dff;
   margin-left: .5rem;
   -webkit-box-shadow: 0 5px 10px rgba(97, 115, 255, 0.3);
           box-shadow: 0 5px 10px rgba(97, 115, 255, 0.3);
+}
+
+.clipboard-ios-mac .container .CTA-buttons .Btn-mac:hover {
+  cursor: pointer;
+  background-color: rgba(97, 115, 255, 0.7);
+  border-bottom: 3px solid #7a8aff;
 }
 
 #footer {
@@ -320,6 +344,10 @@ p {
   margin: .4rem 3rem;
 }
 
+#footer .container .footer-list .list a:hover {
+  color: #26baa4;
+}
+
 #footer .container .socials {
   margin-left: 14rem;
 }
@@ -327,5 +355,9 @@ p {
 #footer .container .socials a {
   color: #4c545d;
   margin: 0 .5rem;
+}
+
+#footer .container .socials a:hover {
+  color: #26baa4;
 }
 /*# sourceMappingURL=style.css.map */

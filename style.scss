@@ -76,12 +76,22 @@ p{
           border-bottom: 3px solid darken($color: $Strong-Cyan, $amount: 5);
           margin-right: .5rem;
           box-shadow: 0 5px 10px rgba($color: $Strong-Cyan, $alpha: 0.3);
+          &:hover{
+            cursor: pointer;
+            background-color: rgba($color: $Strong-Cyan, $alpha: .7);
+            border-bottom: 3px solid lighten($color: $Strong-Cyan, $amount: 5);
+          }
         }
         .Btn-mac{
           background-color: $Light-Blue;
           border-bottom: 3px solid darken($color: $Light-Blue, $amount: 5);
           margin-left: .5rem;
           box-shadow: 0 5px 10px rgba($color: $Light-Blue, $alpha: 0.3);
+          &:hover{
+            cursor: pointer;
+            background-color: rgba($color: $Light-Blue, $alpha: .7);
+            border-bottom: 3px solid lighten($color: $Light-Blue, $amount: 5);
+          }
         }
       }
     }
@@ -216,12 +226,22 @@ p{
           border-bottom: 3px solid darken($color: $Strong-Cyan, $amount: 5);
           margin-right: .5rem;
           box-shadow: 0 5px 10px rgba($color: $Strong-Cyan, $alpha: 0.3);
+          &:hover{
+            cursor: pointer;
+            background-color: rgba($color: $Strong-Cyan, $alpha: .7);
+            border-bottom: 3px solid lighten($color: $Strong-Cyan, $amount: 5);
+          }
         }
         .Btn-mac{
           background-color: $Light-Blue;
           border-bottom: 3px solid darken($color: $Light-Blue, $amount: 5);
           margin-left: .5rem;
           box-shadow: 0 5px 10px rgba($color: $Light-Blue, $alpha: 0.3);
+          &:hover{
+            cursor: pointer;
+            background-color: rgba($color: $Light-Blue, $alpha: .7);
+            border-bottom: 3px solid lighten($color: $Light-Blue, $amount: 5);
+          }
         }
       }
   }
@@ -250,6 +270,9 @@ p{
         text-decoration: none;
         color: $Dark-Grayish-Blue;
         margin: .4rem 3rem;
+        &:hover{
+          color: $Strong-Cyan;
+        }
       }
       }
     }
@@ -258,6 +281,9 @@ p{
       a{
         color: $Dark-Grayish-Blue;
         margin: 0 .5rem;
+        &:hover{
+          color: $Strong-Cyan;
+        }
       }
     }
   }
